@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+  <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity=".32"/>
+</filter></defs>
+<g filter="url(#shadow)">
+<defs>
+  <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="100" x2="0" y2="924">
+    <stop offset="0" stop-color="#2C2C33"/><stop offset="1" stop-color="#121215"/>
+  </linearGradient>
+  <linearGradient id="hot" gradientUnits="userSpaceOnUse" x1="300" y1="260" x2="780" y2="780"><stop offset="0" stop-color="#FFB43A"/><stop offset=".55" stop-color="#FF6A3D"/><stop offset="1" stop-color="#F2385A"/></linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity=".16"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="L"><polygon points="0,0 640,0 400,1024 0,1024"/></clipPath>
+  <clipPath id="R"><polygon points="640,0 1024,0 1024,1024 400,1024"/></clipPath>
+</defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+<rect x="101.5" y="101.5" width="821" height="821" rx="183.5" fill="none" stroke="url(#rim)" stroke-width="3"/>
+<g transform="translate(-14.6 -3.4)"><g clip-path="url(#L)"><polygon points="390,300 390,724 756,512" fill="url(#hot)" stroke="url(#hot)" stroke-width="44" stroke-linejoin="round"/></g></g>
+<g transform="translate(22.3 -29.7)"><g clip-path="url(#R)"><polygon points="390,300 390,724 756,512" fill="url(#hot)" stroke="url(#hot)" stroke-width="44" stroke-linejoin="round"/></g></g>
+<line x1="588.5" y1="219.4" x2="456.4" y2="783.5" stroke="#FFFFFF" stroke-opacity=".92" stroke-width="9" stroke-linecap="round"/>
+</g>
+</svg>
